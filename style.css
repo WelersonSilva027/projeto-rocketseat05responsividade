@@ -1,0 +1,124 @@
+/*RESET DE ESTILOS PADRÕES*/
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  margin-top: 7.2rem;
+
+}
+
+/*RESET DE ESTILOS PADRÕES-FIM*/
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: #ECE9FD;
+
+  padding: 6.0rem 2.3rem 6.6rem;
+
+  font-size: 1.6rem;
+  font-family: 'Epilogue', sans-serif;
+
+}
+
+main {
+  max-width: 33.0rem;
+  margin: 0 auto;
+}
+
+/*Unidade de medida para responsividade (rem) */
+/*Não use mais unidades fixas em px, use sempre rem para tornar tudo responsivo*/
+
+h1 {
+  font-weight: 800;
+  font-size: 4.0rem;
+  line-height: 4.8rem;
+  color: #090039;
+
+  margin-bottom: 1.5rem;
+}
+
+main p:first-child {
+  color: #7158ef;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  line-height: 3.2rem;
+  margin: 1.7rem;
+}
+
+h1+p {
+  color: rgba(10, 0, 57, 0.64);
+  line-height: 3.2rem;
+
+  margin-bottom: 3.2rem;
+}
+
+a {
+  color: #090039;
+
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7158ef;
+  font-weight: bold;
+}
+
+ul li {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+
+  /* Text_Dark */
+  color: #090039;
+  max-width: 25.7rem;
+  display: flex;
+  gap: 3.8rem;
+}
+
+ul li+li {
+  margin-top: 3.2rem;
+}
+
+ul li span {
+  font-weight: 800;
+  font-size: 7.2rem;
+  line-height: 8.0rem;
+  letter-spacing: -2px;
+
+  color: #090039;
+}
+
+@media (min-width:40em) {
+
+  body {
+    padding: 8rem;
+  }
+
+  main {
+
+    display: flex;
+    gap: 10rem;
+    max-width: 1020px;
+  }
+
+  main>div {
+    max-width: 484px;
+
+  }
+
+  ul li {
+    gap: 5.3rem;
+    max-width: 450px;
+    align-items: center;
+  }
+
+
+}
